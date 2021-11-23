@@ -1,0 +1,38 @@
+GET http://localhost:8080/locations
+
+###
+
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+GET http://localhost:8080/locations/4
+
+###
+
+DELETE http://localhost:8080/locations/9
+=======
+>>>>>>> Stashed changes
+GET http://localhost:8080/locations/5
+
+###
+
+DELETE http://localhost:8080/locations/5
+<<<<<<< Updated upstream
+=======
+>>>>>>> main
+>>>>>>> Stashed changes
+
+###
+
+POST http://localhost:8080/locations/
+Content-type: application/json
+
+<<<<<<< Updated upstream
+{ "id": 7, "latidude": 60, "longitude": 27 }
+=======
+<<<<<<< HEAD
+{ "latitude": 60, "longitude": 60 }
+=======
+{ "id": 7, "latidude": 60, "longitude": 27 }
+>>>>>>> main
+>>>>>>> Stashed changes
