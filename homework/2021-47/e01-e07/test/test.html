@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>html test</title>
+  </head>
+  <body>
+    <script>
+      const main = async () => {
+        let hr = await fetch("http://localhost:8080/locations");
+        let js = await hr.json();
+        console.log(js);
+      };
+      main();
+    </script>
+  </body>
+</html>
